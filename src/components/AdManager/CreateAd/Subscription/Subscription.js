@@ -154,7 +154,7 @@ const Subscription = (props) => {
           <SubscriptionFormCard
             planName="Basic"
             price="0"
-            desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit ipsum dolor sit, amet consectetur adipisicing elit \"
+            desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
             listing={basicListing}
             btnText="Select Basic"
             iconClass="fa-star"
@@ -203,6 +203,7 @@ const Subscription = (props) => {
                 checkedIcon={false}
                 uncheckedIcon={false}
               />
+              
             </div>
             <div class="only-run-section-description col-md-8 offset-md-2 ">
               <p>

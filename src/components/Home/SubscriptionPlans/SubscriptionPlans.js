@@ -2,12 +2,12 @@ import React from 'react';
 import SubscriptionCard from './SubscriptionCard';
 
 const SubscriptionPlans = props =>{
-    const basicListing = ["Run your ads with your budget", "Ad design and message is up to you", "Run multiple ad campaigns", "Get 1 post in our social media account", "Choose when to run your ads", "Get notifications for your ad campaigns"];
+    const basicListing = ["Run your ads with your budget", "Run up to 5 ad campaigns at a time", "Ad design and message is up to you", "Get 1 post in our social media account", "Choose your schedule", "Get notifications for your ad campaigns"];
 
     return(
         <div className="subscription-section ">
             <div className="subscription-jumbotron text-center">
-                <h1>Subscribe and get monthly offers </h1>
+                <h1>Choose your plan</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
             </div>
             <div className="subscription-row row">

@@ -163,8 +163,8 @@ function Audience(props) {
         <div className="row audience-form-location-container ">
           <div className="audience-form-location col-md-12">
             <label>
-              <i class="fas fa-globe-europe"></i> Locations targeted by your
-              ads:{" "}
+              Locations targeted by your
+              ads:
             </label>
             <PlacesAutocomplete
               value={location}
